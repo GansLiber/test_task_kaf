@@ -64,7 +64,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #98430b;
+  color: #5454c5;
 }
 
 .banner-text h3 {

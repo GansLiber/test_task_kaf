@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div>
-      <router-link to='globFeed' class='logo'>Dark shop</router-link>
+      <router-link to='globFeed' class='logo'><img class="logo-img" src="@/assets/logo.png" alt="logo"> <p>Dark shop</p></router-link>
     </div>
     <div class='menu'>
       <ul v-if='isLoggedIn'>
@@ -87,6 +87,14 @@ a:hover {
   text-decoration: none;
   font-size: 2em;
   color: #44220a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img{
+  max-height: 40px;
+  margin-right: 5px;
 }
 
 </style>
